@@ -6,6 +6,9 @@ config()
 
 export const env = createEnv({
 	isServer: typeof window === "undefined",
+	// Preview deployments can render the public UI before provider credentials are supplied.
+	// Keep strict validation as the default; only an explicit deployment flag skips it.
+	skipValidation: process.env.SKIP_ENV_VALIDATION === "1",
 	server: {
 		APP_URL: z.string().url(),
 		DESERT_RETAIL_API_URL: z.string().url(),
