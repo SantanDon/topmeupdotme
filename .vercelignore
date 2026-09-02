@@ -1,0 +1,17 @@
+# Local dependency-repair junctions; never send these to Vercel.
+/fast-xml-builder/
+/fast-xml-parser/
+/is-unsafe/
+/ky/
+/pako/
+/path-expression-matcher/
+/pdf-lib/
+/strnum/
+/tslib/
+/xml-naming/
+
+# Local-only state and temporary output.
+/local.db
+/tmp/
+.env
+.env.*
