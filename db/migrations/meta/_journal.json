@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1739301156473,
+      "tag": "0000_confused_maestro",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1785348000000,
+      "tag": "0001_paystack_transactions",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1786382693652,
+      "tag": "0002_small_switch",
+      "breakpoints": true
+    }
+  ]
+}
